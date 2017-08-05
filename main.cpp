@@ -19,8 +19,8 @@ int main(int argc, char *argv[])
     if(app.arguments().count() < 4)
     {
         qDebug() << "Bad input!\n"
-                    "Usage: libqtelegram-code-generator layer schema-path output-dir\n"
-                    "Example: libqtelegram-code-generator 29 /path/to/schema.txt /path/to/out/dir";
+                    "Usage: libqtelegram-code-generator <layer> <schema-path> <output-dir>\n"
+                    "Example: libqtelegram-code-generator 99 /path/to/schema.txt /path/to/out/dir";
         return 0;
     }
 
